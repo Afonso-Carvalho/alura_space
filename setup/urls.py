@@ -23,20 +23,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('apps.galeria.urls')),
     path('',include('apps.usuarios.urls')),
-<<<<<<< HEAD
-<<<<<<< HEAD
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) #pegar como referencia o diretorio media para pegar as img
-=======
-=======
->>>>>>> desenvolvendo
-] 
+]
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT) #pegar como referencia o diretorio media para pegar as img
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-
-<<<<<<< HEAD
->>>>>>> desenvolvendo
-=======
->>>>>>> desenvolvendo
