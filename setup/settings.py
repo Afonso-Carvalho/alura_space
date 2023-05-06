@@ -42,7 +42,12 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.galeria.apps.GaleriaConfig',
 <<<<<<< HEAD
+<<<<<<< HEAD
     'apps.usuarios.apps.UsuariosConfig'
+=======
+    'apps.usuarios.apps.UsuariosConfig',
+    'storages',
+>>>>>>> desenvolvendo
 =======
     'apps.usuarios.apps.UsuariosConfig',
     'storages',
