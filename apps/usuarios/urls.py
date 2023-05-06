@@ -1,4 +1,8 @@
 from django.urls import path
+<<<<<<< HEAD
+=======
+
+>>>>>>> desenvolvendo
 from apps.usuarios.views import login, cadastro, logout
 
 urlpatterns = [
